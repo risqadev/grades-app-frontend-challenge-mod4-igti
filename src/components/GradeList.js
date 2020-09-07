@@ -135,18 +135,18 @@ const GradeList = () => {
             </div>
 
             <Link
-              to={'/grade/' + currentGrade.id}
+              to={'/grade/' + currentGrade._id}
               className="badge badge-warning"
             >
               Edit
             </Link>
           </div>
         ) : (
-          <div>
-            <br />
-            <p>Please click on a Grade...</p>
-          </div>
-        )}
+            <div>
+              <br />
+              <p>Please click on a Grade...</p>
+            </div>
+          )}
       </div>
     </div>
   );
